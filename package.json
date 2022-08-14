@@ -1,0 +1,24 @@
+{
+  "name": "playwrighttuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "testconfig":"playwright test --config=tests/playwright.config.ts",
+    "singletest":"playwright test tests/assertions1.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/playwrighttutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/playwrighttutorial/issues"
+  },
+  "homepage": "https://github.com/arunk2493/playwrighttutorial#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.23.4"
+  }
+}
